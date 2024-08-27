@@ -12,7 +12,7 @@ public class Main {
         Store myStore = new Store();
         System.out.println(myStore);
         // Add products to the store
-        myStore.addProduct(new Products("Laptop", 999.99, 10));
+        myStore.addProduct(new Product("Laptop", 999.99, 10));
         System.out.println(myStore);
     }
 
